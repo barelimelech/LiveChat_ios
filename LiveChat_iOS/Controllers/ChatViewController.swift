@@ -61,15 +61,6 @@ class ChatViewController: UIViewController {
                 }
             }
         }
-        //        do {
-        //            messages = []
-        //            let snapshot = try await db.collection(Constants.FStore.collectionName).getDocuments()
-        //          for document in snapshot.documents {
-        //            print("\(document.documentID) => \(document.data())")
-        //          }
-        //        } catch {
-        //          print("Error getting documents: \(error)")
-        //        }
     }
     
     @IBAction func sendPressed(_ sender: UIButton) {
