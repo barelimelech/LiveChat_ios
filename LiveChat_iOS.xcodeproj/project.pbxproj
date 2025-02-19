@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45B79EDD2D64A78600954D12 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 45B79EDC2D64A78600954D12 /* IQKeyboardManagerSwift */; };
 		D8B7F671A79CF69804B54D7C /* Pods_LiveChat_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D479E33E94BB8E431E668272 /* Pods_LiveChat_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8B7F671A79CF69804B54D7C /* Pods_LiveChat_iOS.framework in Frameworks */,
+				45B79EDD2D64A78600954D12 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +215,9 @@
 			);
 			mainGroup = 456393032D53CE6500448820;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				45B79EDB2D64A78600954D12 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 4563930D2D53CE6500448820 /* Products */;
 			projectDirPath = "";
@@ -612,6 +617,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		45B79EDB2D64A78600954D12 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		45B79EDC2D64A78600954D12 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 45B79EDB2D64A78600954D12 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 456393042D53CE6500448820 /* Project object */;
 }
