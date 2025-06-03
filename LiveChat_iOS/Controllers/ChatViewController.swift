@@ -16,10 +16,6 @@ class ChatViewController: UIViewController {
     let db = Firestore.firestore()
     
     var messages: [Message] = [
-        Message(sender: "bar@gmail.com", body: "hello"),
-        Message(sender: "amit@gmail.com", body: "hey"),
-        Message(sender: "adam@gmail.com", body: "how are you?")
-        
     ]
     
     override func viewDidLoad() {
