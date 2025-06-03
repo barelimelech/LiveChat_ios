@@ -51,6 +51,10 @@
 
 ## 📸 Screenshots
 
-Main chat screen:
+Main chat screens:
 
-![Screenshot](Images/Screenshot3.png)
+<p align="center">
+  <img src="LiveChat_iOS/Images/Screenshot3.png" alt="Image 1" width="200"/>
+  <img src="LiveChat_iOS/Images/Screenshot1.png" alt="Image 2" width="200"/>
+  <img src="LiveChat_iOS/Images/Screenshot2.png" alt="Image 3" width="200"/>
+</p>
