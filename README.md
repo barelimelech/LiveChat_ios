@@ -48,3 +48,9 @@
 
     Choose a simulator or connected device and hit Run (▶️) in Xcode.
 
+
+## 📸 Screenshots
+
+Main chat screen:
+
+![Screenshot](Images/Screenshot3.png)
